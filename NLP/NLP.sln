@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NLP", "NLP\NLP.vcxproj", "{EFAA86F1-F875-458B-923B-643EA7FC03DA}"
 EndProject
 Global
@@ -18,5 +21,11 @@ Global
 		{EFAA86F1-F875-458B-923B-643EA7FC03DA}.Release|Win32.Build.0 = Release|Win32
 		{EFAA86F1-F875-458B-923B-643EA7FC03DA}.Release|x64.ActiveCfg = Release|x64
 		{EFAA86F1-F875-458B-923B-643EA7FC03DA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9BB01DD-CF02-4F43-A209-90D08EABD706}
 	EndGlobalSection
 EndGlobal

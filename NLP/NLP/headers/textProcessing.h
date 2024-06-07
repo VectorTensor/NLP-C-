@@ -7,6 +7,7 @@
 namespace utils
 {
     
-    EXP_API void TokenizeText(std::string s);
+    EXP_API std::vector<std::string> TokenizeText(std::string s);
     EXP_API std::string Process_Text(std::string s);
+    EXP_API std::vector<std::string> ProcessTextNLP(std:: string str);
 }
