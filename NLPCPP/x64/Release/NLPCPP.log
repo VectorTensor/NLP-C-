@@ -1,0 +1,1505 @@
+﻿  Computation.cpp
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(156,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(157,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(158,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(170,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(182,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(186,19): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,27): error C2187: syntax error: '::' was unexpected here
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,51): error C3878: syntax error: unexpected token '<' following 'alias_declaration'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,51): message : error recovery skipped: '<'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,57): error C2760: syntax error: '>' was unexpected here; expected 'declaration'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,29): error C2187: syntax error: '::' was unexpected here
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,29):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(597,8):
+  	while compiling class template partial specialization 'std::hash<c10::basic_string_view<CharT>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,53): error C3878: syntax error: unexpected token '<' following 'alias_declaration'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,53): message : error recovery skipped: '<'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,59): error C2760: syntax error: '>' was unexpected here; expected 'declaration'
+  (compiling source file 'Computation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(27,35): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(27,15):
+  see declaration of 'c10::Error'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(29,15): warning C4251: 'c10::Error::msg_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(34,28): warning C4251: 'c10::Error::context_': class 'std::vector<std::string,std::allocator<std::string>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<std::string,std::allocator<std::string>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(39,15): warning C4251: 'c10::Error::backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(46,15): warning C4251: 'c10::Error::what_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(47,15): warning C4251: 'c10::Error::what_without_backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(119,34): error C2039: 'variant': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(119,34): error C2061: syntax error: identifier 'variant'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(122,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(128,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(127,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(121,3):
+  see declaration of 'c10::Warning::Warning'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(134,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(133,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(121,3):
+  see declaration of 'c10::Warning::Warning'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,21): error C3646: 'type': unknown override specifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,25): error C2059: syntax error: '('
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,33): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(147,21): error C3646: 'type_': unknown override specifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(147,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(153,15): warning C4251: 'c10::Warning::msg_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Warning'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(450,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(479,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(646,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\TypeTraits.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\TypeList.h(10,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Metaprogramming.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\llvmMathExtras.h(59,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\core\DispatchKeySet.h(442,15): warning C4267: 'return': conversion from 'size_t' to 'uint8_t', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(216,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(219,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(222,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(225,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(229,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(232,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(235,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(238,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(244,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(247,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(250,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(253,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(257,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(260,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(263,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(266,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\floating_point_utils.h(6,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(162,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(165,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(168,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(171,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(175,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(178,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(181,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(184,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(190,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(193,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(196,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(199,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(203,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(206,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(209,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(212,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_fnuz_cvt.h(7,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(163,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(166,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(169,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(172,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(176,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(182,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(185,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(191,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(194,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(197,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(200,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(204,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(207,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(210,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(213,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half.h(480,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(231,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(234,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(237,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(240,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(244,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(247,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(250,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(253,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(259,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(262,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(265,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(268,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(272,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(275,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(278,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(281,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(170,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(173,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(176,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(183,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(186,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(189,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(192,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(198,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(201,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(204,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(207,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(211,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(214,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(217,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(220,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(167,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(170,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(173,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(176,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(180,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(183,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(186,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(189,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(195,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(198,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(201,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(204,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(208,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(211,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(214,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(217,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\core\ScalarType.h(499,8): warning C5051: attribute [[fallthrough]] requires at least '/std:c++17'; ignored
+  (compiling source file 'Computation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(13,12): error C2039: 'bad_optional_access': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(13,1): error C2873: 'bad_optional_access': symbol cannot be used in a using-declaration
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(15,12): error C2039: 'make_optional': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(15,1): error C2873: 'make_optional': symbol cannot be used in a using-declaration
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(17,12): error C2039: 'nullopt': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(17,1): error C2873: 'nullopt': symbol cannot be used in a using-declaration
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(19,12): error C2039: 'nullopt_t': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(19,1): error C2873: 'nullopt_t': symbol cannot be used in a using-declaration
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(21,12): error C2039: 'optional': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(21,1): error C2873: 'optional': symbol cannot be used in a using-declaration
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,41): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,41): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,63): error C2760: syntax error: 'T' was unexpected here; expected 'expression'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,64): error C3878: syntax error: unexpected token '>' following 'static_assert_declaration'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,64): message : error recovery skipped: '> ,'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): error C3878: syntax error: unexpected token ')' following 'expression_statement'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): message : error recovery skipped: ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,10): error C2065: 'v': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,27): error C2065: 'v': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,67): error C2065: 'func': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,13): error C2365: 'c10::value_or_else': redefinition; previous definition was 'function'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,13):
+  see declaration of 'c10::value_or_else'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,27): error C2065: 'optional': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,38): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,38): error C2059: syntax error: '&&'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,54): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,54): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(65,7):
+  	while compiling class template 'c10::MaybeOwned'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28): error C2061: syntax error: identifier 'in_place_t'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,32): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,32): error C2061: syntax error: identifier 'in_place_t'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(86,53): error C3861: 'args': identifier not found
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,3):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T>::MaybeOwned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(86,53): error C2065: 'args': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,3):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T>::MaybeOwned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,28): error C2039: 'in_place': is not a member of 'std'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,57): error C3861: 'args': identifier not found
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,57): error C2065: 'args': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(83,33): warning C4251: 'c10::intrusive_ptr_target::refcount_': struct 'std::atomic<unsigned int>' needs to have dll-interface to be used by clients of class 'c10::intrusive_ptr_target'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\atomic(2165,8):
+  see declaration of 'std::atomic<unsigned int>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(84,33): warning C4251: 'c10::intrusive_ptr_target::weakcount_': struct 'std::atomic<unsigned int>' needs to have dll-interface to be used by clients of class 'c10::intrusive_ptr_target'
+  (compiling source file 'Computation.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\atomic(2165,8):
+  see declaration of 'std::atomic<unsigned int>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(88,42): error C2039: 'incref': is not a member of 'c10::raw::intrusive_ptr'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(21,11):
+  see declaration of 'c10::raw::intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(92,47): error C2039: 'incref': is not a member of 'c10::raw::weak_intrusive_ptr'
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(18,11):
+  see declaration of 'c10::raw::weak_intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(118,5): error C2059: syntax error: 'while'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(118,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(133,5): error C2059: syntax error: 'while'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(133,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,75): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13): error C3615: constexpr function 'c10::intrusive_ptr_target' cannot result in a constant expression
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  failure was because type 'c10::intrusive_ptr_target' is not a literal type
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(101,12):
+  type 'c10::intrusive_ptr_target' is not a literal type because it has a user-defined destructor
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  failure was caused by control reaching the end of a constexpr function
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,3): error C2373: 'c10::intrusive_ptr_target': redefinition; different type modifiers
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  see declaration of 'c10::intrusive_ptr_target'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,56): error C2059: syntax error: ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(153,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(153,33): warning C4508: 'c10::intrusive_ptr_target': function should return a value; 'void' return type assumed
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,23): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,25): error C2473: 'operator =': looks like a function definition, but there is no parameter list.
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,67): error C2059: syntax error: ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,78): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,78): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(159,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(159,50): error C2143: syntax error: missing ',' before '&'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,32): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,33): warning C4508: 'c10::intrusive_ptr_target': function should return a value; 'void' return type assumed
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(162,23): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,33): error C2143: syntax error: missing ',' before '&'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2059: syntax error: '{'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(167,2): error C2059: syntax error: 'private'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(179,16): error C2575: 'release_resources': only member functions and bases can be virtual
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,43): error C2653: 'raw': is not a class or namespace name
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,43):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(229,7):
+  	while compiling class template 'intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,48): error C2061: syntax error: identifier 'DontIncreaseRefcount'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,3): error C2382: 'intrusive_ptr<TTarget,NullType>::intrusive_ptr': redefinition; different exception specifications
+  (compiling source file 'Computation.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(311,3):
+  see declaration of 'intrusive_ptr<TTarget,NullType>::intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(312,31): error C2065: 'raw': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(312,56): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(333,46): error C2065: 'raw': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(333,71): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,46): error C2065: 'raw': undeclared identifier
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,71): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'Computation.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,71): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'Computation.cpp')
+  
+  NLPClassificationUtils.cpp
+C:\prayash\NLPCPP\NLPCPP\NLPClassificationUtils.cpp(27,26): error C2039: 'contains': is not a member of 'std::unordered_map<std::tuple<std::string,int>,int,NLPClassification::tuple_hash,std::equal_to<std::tuple<std::string,int>>,std::allocator<std::pair<const std::tuple<std::string,int>,int>>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\unordered_map(66,7):
+  see declaration of 'std::unordered_map<std::tuple<std::string,int>,int,NLPClassification::tuple_hash,std::equal_to<std::tuple<std::string,int>>,std::allocator<std::pair<const std::tuple<std::string,int>,int>>>'
+  
+  NLPCPP.cpp
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(156,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(157,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(158,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(170,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(182,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\macros\Macros.h(186,19): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,27): error C2187: syntax error: '::' was unexpected here
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,51): error C3878: syntax error: unexpected token '<' following 'alias_declaration'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,51): message : error recovery skipped: '<'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(580,57): error C2760: syntax error: '>' was unexpected here; expected 'declaration'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,29): error C2187: syntax error: '::' was unexpected here
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,29):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(597,8):
+  	while compiling class template partial specialization 'std::hash<c10::basic_string_view<CharT>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,53): error C3878: syntax error: unexpected token '<' following 'alias_declaration'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,53): message : error recovery skipped: '<'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\string_view.h(605,59): error C2760: syntax error: '>' was unexpected here; expected 'declaration'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(27,35): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h(48,7):
+  see declaration of 'std::exception'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(27,15):
+  see declaration of 'c10::Error'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(29,15): warning C4251: 'c10::Error::msg_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(34,28): warning C4251: 'c10::Error::context_': class 'std::vector<std::string,std::allocator<std::string>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<std::string,std::allocator<std::string>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(39,15): warning C4251: 'c10::Error::backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(46,15): warning C4251: 'c10::Error::what_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(47,15): warning C4251: 'c10::Error::what_without_backtrace_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Error'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(119,34): error C2039: 'variant': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(119,34): error C2061: syntax error: identifier 'variant'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(122,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(128,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(127,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(121,3):
+  see declaration of 'c10::Warning::Warning'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(134,7): error C2061: syntax error: identifier 'warning_variant_t'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(133,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(121,3):
+  see declaration of 'c10::Warning::Warning'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,21): error C3646: 'type': unknown override specifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,25): error C2059: syntax error: '('
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(140,33): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(147,21): error C3646: 'type_': unknown override specifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(147,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(153,15): warning C4251: 'c10::Warning::msg_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'c10::Warning'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(450,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(479,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Exception.h(646,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\TypeTraits.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\TypeList.h(10,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Metaprogramming.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\llvmMathExtras.h(59,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\core\DispatchKeySet.h(442,15): warning C4267: 'return': conversion from 'size_t' to 'uint8_t', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(216,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(219,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(222,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(225,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(229,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(232,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(235,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(238,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(244,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(247,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(250,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(253,36): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(257,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(260,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(263,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\BFloat16-inl.h(266,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\floating_point_utils.h(6,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(162,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(165,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(168,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(171,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(175,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(178,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(181,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(184,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(190,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(193,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(196,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(199,41): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(203,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(206,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(209,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fn-inl.h(212,37): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_fnuz_cvt.h(7,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(163,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(166,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(169,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(172,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(176,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(182,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(185,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(191,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(194,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(197,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(200,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(204,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(207,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(210,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e4m3fnuz-inl.h(213,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half.h(480,3): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(231,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(234,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(237,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(240,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(244,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(247,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(250,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(253,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(259,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(262,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(265,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(268,32): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(272,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(275,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(278,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Half-inl.h(281,28): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(170,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(173,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(176,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(183,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(186,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(189,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(192,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(198,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(201,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(204,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(207,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(211,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(214,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(217,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2-inl.h(220,35): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(167,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(170,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(173,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(176,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(180,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(183,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(186,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(189,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(195,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(198,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(201,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(204,43): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(208,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(211,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(214,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(217,39): warning C4244: 'argument': conversion from 'int64_t' to 'float', possible loss of data
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\core\ScalarType.h(499,8): warning C5051: attribute [[fallthrough]] requires at least '/std:c++17'; ignored
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(13,12): error C2039: 'bad_optional_access': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(13,1): error C2873: 'bad_optional_access': symbol cannot be used in a using-declaration
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(15,12): error C2039: 'make_optional': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(15,1): error C2873: 'make_optional': symbol cannot be used in a using-declaration
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(17,12): error C2039: 'nullopt': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(17,1): error C2873: 'nullopt': symbol cannot be used in a using-declaration
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(19,12): error C2039: 'nullopt_t': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(19,1): error C2873: 'nullopt_t': symbol cannot be used in a using-declaration
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(21,12): error C2039: 'optional': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(21,1): error C2873: 'optional': symbol cannot be used in a using-declaration
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,41): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,41): error C2143: syntax error: missing ',' before '<'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,63): error C2760: syntax error: 'T' was unexpected here; expected 'expression'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,64): error C3878: syntax error: unexpected token '>' following 'static_assert_declaration'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(34,64): message : error recovery skipped: '> ,'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): error C2760: syntax error: ')' was unexpected here; expected ';'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): error C3878: syntax error: unexpected token ')' following 'expression_statement'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(35,111): message : error recovery skipped: ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,10): error C2065: 'v': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,27): error C2065: 'v': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(36,67): error C2065: 'func': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,13): error C2365: 'c10::value_or_else': redefinition; previous definition was 'function'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(32,13):
+  see declaration of 'c10::value_or_else'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,27): error C2065: 'optional': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,38): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,38): error C2059: syntax error: '&&'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,54): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Optional.h(40,54): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(65,7):
+  	while compiling class template 'c10::MaybeOwned'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,28): error C2061: syntax error: identifier 'in_place_t'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,32): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,32): error C2061: syntax error: identifier 'in_place_t'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(86,53): error C3861: 'args': identifier not found
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,3):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T>::MaybeOwned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(86,53): error C2065: 'args': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(85,3):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T>::MaybeOwned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,28): error C2039: 'in_place': is not a member of 'std'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\Float8_e5m2fnuz-inl.h(225,11):
+  see declaration of 'std'
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,57): error C3861: 'args': identifier not found
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(181,57): error C2065: 'args': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\MaybeOwned.h(180,21):
+  This diagnostic occurred in the compiler generated function 'c10::MaybeOwned<T> c10::MaybeOwned<T>::owned(void)'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(83,33): warning C4251: 'c10::intrusive_ptr_target::refcount_': struct 'std::atomic<unsigned int>' needs to have dll-interface to be used by clients of class 'c10::intrusive_ptr_target'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\atomic(2165,8):
+  see declaration of 'std::atomic<unsigned int>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(84,33): warning C4251: 'c10::intrusive_ptr_target::weakcount_': struct 'std::atomic<unsigned int>' needs to have dll-interface to be used by clients of class 'c10::intrusive_ptr_target'
+  (compiling source file 'NLPCPP.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\atomic(2165,8):
+  see declaration of 'std::atomic<unsigned int>'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(88,42): error C2039: 'incref': is not a member of 'c10::raw::intrusive_ptr'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(21,11):
+  see declaration of 'c10::raw::intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(92,47): error C2039: 'incref': is not a member of 'c10::raw::weak_intrusive_ptr'
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(18,11):
+  see declaration of 'c10::raw::weak_intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(118,5): error C2059: syntax error: 'while'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(118,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(133,5): error C2059: syntax error: 'while'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(133,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,75): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13): error C3615: constexpr function 'c10::intrusive_ptr_target' cannot result in a constant expression
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  failure was because type 'c10::intrusive_ptr_target' is not a literal type
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(101,12):
+  type 'c10::intrusive_ptr_target' is not a literal type because it has a user-defined destructor
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  failure was caused by control reaching the end of a constexpr function
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,3): error C2373: 'c10::intrusive_ptr_target': redefinition; different type modifiers
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(147,13):
+  see declaration of 'c10::intrusive_ptr_target'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(152,56): error C2059: syntax error: ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(153,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(153,33): warning C4508: 'c10::intrusive_ptr_target': function should return a value; 'void' return type assumed
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,23): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,25): error C2473: 'operator =': looks like a function definition, but there is no parameter list.
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,67): error C2059: syntax error: ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,78): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(155,78): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(159,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(159,50): error C2143: syntax error: missing ',' before '&'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,32): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(160,33): warning C4508: 'c10::intrusive_ptr_target': function should return a value; 'void' return type assumed
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(162,23): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,33): error C2143: syntax error: missing ',' before '&'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2059: syntax error: '{'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(163,55): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(167,2): error C2059: syntax error: 'private'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(179,16): error C2575: 'release_resources': only member functions and bases can be virtual
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,43): error C2653: 'raw': is not a class or namespace name
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,43):
+  the template instantiation context (the oldest one first) is
+  	C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(229,7):
+  	while compiling class template 'intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,48): error C2061: syntax error: identifier 'DontIncreaseRefcount'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(341,3): error C2382: 'intrusive_ptr<TTarget,NullType>::intrusive_ptr': redefinition; different exception specifications
+  (compiling source file 'NLPCPP.cpp')
+  C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(311,3):
+  see declaration of 'intrusive_ptr<TTarget,NullType>::intrusive_ptr'
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(312,31): error C2065: 'raw': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(312,56): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(333,46): error C2065: 'raw': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(333,71): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,46): error C2065: 'raw': undeclared identifier
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,71): error C2760: syntax error: '{' was unexpected here; expected ')'
+  (compiling source file 'NLPCPP.cpp')
+  
+C:\prayash\NLPCPP\dependencies\libtorch\include\c10\util\intrusive_ptr.h(336,71): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'NLPCPP.cpp')
+  

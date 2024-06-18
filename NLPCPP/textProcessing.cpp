@@ -10,8 +10,19 @@
 
 namespace utils
 {
+     std::string cleanCppString(const std::string& input)
+    {
+        std::string result;
+        for (char c : input) {
+            if (c >= 32 && c <= 126) {  // Printable ASCII characters range from 32 (space) to 126 (tilde)
+                result += c;
+            }
+        }
+        return result;
+    }
     std::string Process_Text(std::string s)
     {
+        s =cleanCppString(s); 
         std::string result  = s  ;
 
         // Remove punctuation
@@ -25,6 +36,8 @@ namespace utils
         
         
     }
+    
+   
     
 
 

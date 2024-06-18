@@ -1,6 +1,13 @@
-﻿#include<iostream>
+﻿#pragma once
+
+#include<iostream>
 #include <unordered_map>
 #include<vector>
+#include <xtensor/xarray.hpp>
+#include <xtensor/xio.hpp>
+#include <xtensor/xview.hpp>
+#include <xtensor-blas/xlinalg.hpp>
+
 
 #define EXP_API __declspec(dllexport)
 
@@ -18,6 +25,11 @@ namespace NLPClassification
 
     EXP_API std::unordered_map<std::tuple<std:: string,int>,int,tuple_hash> BuildFrequencies(std::vector<std::string> text, std::vector<int> y);
     
+    EXP_API xt::xarray<float> ExtractFeatures(std::string text,  std:: unordered_map<std::tuple<std::string, int>,int,tuple_hash> freqs);
+    
+    EXP_API xt::xarray<float> PredictSentiment(std::string text,std::unordered_map<std::tuple<std:: string,int>,int,tuple_hash> freqs, xt::xarray<float> theta);
+
+    EXP_API xt::xarray<float> TrainModel(xt::xarray<float> x, xt::xarray<float> y, float alpha, int num_iters);
 }
 
 

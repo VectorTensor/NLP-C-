@@ -1,24 +1,37 @@
 ﻿#include <iostream>
-#include <tuple>
-#include <torch/torch.h>
+#include "headers/Computation.h"
 
 namespace utils
 {
 
     
-   torch::Tensor sigmoid(torch::Tensor z)
+   xt::xarray<float>sigmoid(xt::xarray<float>z)
    {
-   
-       torch::Tensor h =1/(1+ torch::exp(-z));
+       
+       xt::xarray<float>h = 1/(1+ xt::exp(-z));
        return h;
        
    }
    
-   std::tuple<float, torch::Tensor> GradientDescent(torch::Tensor x , torch::Tensor y, torch::Tensor theta, float aplha, int num_iters )
+   std::tuple<float, xt::xarray<float>> GradientDescent(xt::xarray<float> x , xt::xarray<float>y, xt::xarray<float>theta, float alpha, int num_iters )
    {
-   
-       int m = x.sizes()[0];
-       std::tuple<float, torch::Tensor> r;
+
+       auto m = x.shape()[0];
+       std::tuple<float, xt::xarray<float>> r;
+       xt::xarray<float> J;
+       for (int i =0;i< num_iters;i++)
+       {
+
+           xt::xarray<float>z = xt::linalg::dot(x,theta);
+           xt::xarray<float> h = utils::sigmoid(z);
+            J = -(xt::linalg::dot(xt::transpose(y),xt::log(h)) + xt::linalg::dot(xt::transpose(1-y),xt::log(1-h)))/m;
+           theta = theta - alpha*(xt::linalg::dot(xt::transpose(x),(h-y)))/m;
+           std::cout << theta<<std::endl;
+           
+           
+       }
+       r = {J[0],theta};
+       
        return r;
        
        
